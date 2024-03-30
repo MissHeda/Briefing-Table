@@ -364,14 +364,3 @@ private _settingMarkerSize = ["markerSize", _text_Setting_MarkerSize_Ace_Display
 [this, 0, [], _settingHeight, true] call ace_interact_menu_fnc_addActionToObject;
 [this, 0, [], _settingType, true] call ace_interact_menu_fnc_addActionToObject;
 [this, 0, [], _settingMarkerSize, true] call ace_interact_menu_fnc_addActionToObject;
-
-
-
-
-
-
-
-
-
-
-[bob, ["default_faction", "default_rank"]] call etr_ranks_functions_fnc_setIcon
